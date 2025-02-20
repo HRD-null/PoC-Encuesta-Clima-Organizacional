@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Encuesta de Clima y Cultura Organizacional</title>
+  <link rel="stylesheet" href="survey.css" />
+</head>
+<body>
+  <h1>Encuesta de Clima y Cultura Organizacional</h1>
+  <p>
+    La Encuesta de Clima y Cultura Organizacional tiene como objetivo medir la percepción sobre el clima y la cultura institucional, materia de suma importancia a fin de continuar trabajando en la implementación de estrategias que permitan al personal laborar en un clima satisfactorio que coadyuve al cumplimiento de metas institucionales.
+  </p>
+  
+  <form id="surveyForm">
+    <!-- Preguntas con respuesta SI/NO -->
+    <div class="question">
+      <p>1. ¿Considera que el ambiente laboral es positivo?</p>
+      <label><input type="radio" name="question1" value="Si" required> Si</label>
+      <label><input type="radio" name="question1" value="No"> No</label>
+    </div>
+    
+    <div class="question">
+      <p>2. ¿Se siente valorado/a en su trabajo?</p>
+      <label><input type="radio" name="question2" value="Si" required> Si</label>
+      <label><input type="radio" name="question2" value="No"> No</label>
+    </div>
+    
+    <div class="question">
+      <p>3. ¿Tiene claridad sobre sus responsabilidades laborales?</p>
+      <label><input type="radio" name="question3" value="Si" required> Si</label>
+      <label><input type="radio" name="question3" value="No"> No</label>
+    </div>
+    
+    <div class="question">
+      <p>4. ¿Considera que la comunicación interna es efectiva?</p>
+      <label><input type="radio" name="question4" value="Si" required> Si</label>
+      <label><input type="radio" name="question4" value="No"> No</label>
+    </div>
+    
+    <div class="question">
+      <p>5. ¿Se siente motivado/a por las metas de la empresa?</p>
+      <label><input type="radio" name="question5" value="Si" required> Si</label>
+      <label><input type="radio" name="question5" value="No"> No</label>
+    </div>
+    
+    <!-- Preguntas con calificación del 1 al 10 -->
+    <div class="question">
+      <p>6. Califique del 1 al 10 su satisfacción general con su trabajo:</p>
+      <input type="number" name="question6" min="1" max="10" required>
+    </div>
+    
+    <div class="question">
+      <p>7. Califique del 1 al 10 la calidad de las instalaciones de la empresa:</p>
+      <input type="number" name="question7" min="1" max="10" required>
+    </div>
+    
+    <div class="question">
+      <p>8. Califique del 1 al 10 la efectividad de la comunicación interna:</p>
+      <input type="number" name="question8" min="1" max="10" required>
+    </div>
+    
+    <div class="question">
+      <p>9. Califique del 1 al 10 su nivel de compromiso con la empresa:</p>
+      <input type="number" name="question9" min="1" max="10" required>
+    </div>
+    
+    <div class="question">
+      <p>10. Califique del 1 al 10 la calidad del liderazgo:</p>
+      <input type="number" name="question10" min="1" max="10" required>
+    </div>
+    
+    <!-- Preguntas con calificación cualitativa (Muy Malo, Malo, Regular, Bueno, Excelente) -->
+    <div class="question">
+      <p>11. ¿Cómo calificaría el clima laboral?</p>
+      <label><input type="radio" name="question11" value="Muy Malo" required> Muy Malo</label>
+      <label><input type="radio" name="question11" value="Malo"> Malo</label>
+      <label><input type="radio" name="question11" value="Regular"> Regular</label>
+      <label><input type="radio" name="question11" value="Bueno"> Bueno</label>
+      <label><input type="radio" name="question11" value="Excelente"> Excelente</label>
+    </div>
+    
+    <div class="question">
+      <p>12. ¿Cómo calificaría la cultura organizacional?</p>
+      <label><input type="radio" name="question12" value="Muy Malo" required> Muy Malo</label>
+      <label><input type="radio" name="question12" value="Malo"> Malo</label>
+      <label><input type="radio" name="question12" value="Regular"> Regular</label>
+      <label><input type="radio" name="question12" value="Bueno"> Bueno</label>
+      <label><input type="radio" name="question12" value="Excelente"> Excelente</label>
+    </div>
+    
+    <div class="question">
+      <p>13. ¿Cómo calificaría la gestión del cambio en la organización?</p>
+      <label><input type="radio" name="question13" value="Muy Malo" required> Muy Malo</label>
+      <label><input type="radio" name="question13" value="Malo"> Malo</label>
+      <label><input type="radio" name="question13" value="Regular"> Regular</label>
+      <label><input type="radio" name="question13" value="Bueno"> Bueno</label>
+      <label><input type="radio" name="question13" value="Excelente"> Excelente</label>
+    </div>
+    
+    <div class="question">
+      <p>14. ¿Cómo calificaría el apoyo recibido de sus superiores?</p>
+      <label><input type="radio" name="question14" value="Muy Malo" required> Muy Malo</label>
+      <label><input type="radio" name="question14" value="Malo"> Malo</label>
+      <label><input type="radio" name="question14" value="Regular"> Regular</label>
+      <label><input type="radio" name="question14" value="Bueno"> Bueno</label>
+      <label><input type="radio" name="question14" value="Excelente"> Excelente</label>
+    </div>
+    
+    <div class="question">
+      <p>15. ¿Cómo calificaría la equidad en el trato entre empleados?</p>
+      <label><input type="radio" name="question15" value="Muy Malo" required> Muy Malo</label>
+      <label><input type="radio" name="question15" value="Malo"> Malo</label>
+      <label><input type="radio" name="question15" value="Regular"> Regular</label>
+      <label><input type="radio" name="question15" value="Bueno"> Bueno</label>
+      <label><input type="radio" name="question15" value="Excelente"> Excelente</label>
+    </div>
+    
+    <!-- Más preguntas SI/NO -->
+    <div class="question">
+      <p>16. ¿Considera que la empresa fomenta el trabajo en equipo?</p>
+      <label><input type="radio" name="question16" value="Si" required> Si</label>
+      <label><input type="radio" name="question16" value="No"> No</label>
+    </div>
+    
+    <div class="question">
+      <p>17. ¿Se siente parte de la misión y visión de la empresa?</p>
+      <label><input type="radio" name="question17" value="Si" required> Si</label>
+      <label><input type="radio" name="question17" value="No"> No</label>
+    </div>
+    
+    <div class="question">
+      <p>18. ¿La empresa reconoce y recompensa su desempeño?</p>
+      <label><input type="radio" name="question18" value="Si" required> Si</label>
+      <label><input type="radio" name="question18" value="No"> No</label>
+    </div>
+    
+    <div class="question">
+      <p>19. ¿Existe un ambiente de respeto en la organización?</p>
+      <label><input type="radio" name="question19" value="Si" required> Si</label>
+      <label><input type="radio" name="question19" value="No"> No</label>
+    </div>
+    
+    <div class="question">
+      <p>20. ¿Dispone de oportunidades de crecimiento profesional?</p>
+      <label><input type="radio" name="question20" value="Si" required> Si</label>
+      <label><input type="radio" name="question20" value="No"> No</label>
+    </div>
+    
+    <!-- Preguntas con calificación cualitativa -->
+    <div class="question">
+      <p>21. Califique la calidad de los beneficios laborales:</p>
+      <label><input type="radio" name="question21" value="Muy Malo" required> Muy Malo</label>
+      <label><input type="radio" name="question21" value="Malo"> Malo</label>
+      <label><input type="radio" name="question21" value="Regular"> Regular</label>
+      <label><input type="radio" name="question21" value="Bueno"> Bueno</label>
+      <label><input type="radio" name="question21" value="Excelente"> Excelente</label>
+    </div>
+    
+    <div class="question">
+      <p>22. Califique la claridad en la comunicación de objetivos:</p>
+      <label><input type="radio" name="question22" value="Muy Malo" required> Muy Malo</label>
+      <label><input type="radio" name="question22" value="Malo"> Malo</label>
+      <label><input type="radio" name="question22" value="Regular"> Regular</label>
+      <label><input type="radio" name="question22" value="Bueno"> Bueno</label>
+      <label><input type="radio" name="question22" value="Excelente"> Excelente</label>
+    </div>
+    
+    <div class="question">
+      <p>23. Califique la innovación en la empresa:</p>
+      <label><input type="radio" name="question23" value="Muy Malo" required> Muy Malo</label>
+      <label><input type="radio" name="question23" value="Malo"> Malo</label>
+      <label><input type="radio" name="question23" value="Regular"> Regular</label>
+      <label><input type="radio" name="question23" value="Bueno"> Bueno</label>
+      <label><input type="radio" name="question23" value="Excelente"> Excelente</label>
+    </div>
+    
+    <div class="question">
+      <p>24. Califique la gestión de conflictos internos:</p>
+      <label><input type="radio" name="question24" value="Muy Malo" required> Muy Malo</label>
+      <label><input type="radio" name="question24" value="Malo"> Malo</label>
+      <label><input type="radio" name="question24" value="Regular"> Regular</label>
+      <label><input type="radio" name="question24" value="Bueno"> Bueno</label>
+      <label><input type="radio" name="question24" value="Excelente"> Excelente</label>
+    </div>
+    
+    <div class="question">
+      <p>25. Califique la transparencia en la toma de decisiones:</p>
+      <label><input type="radio" name="question25" value="Muy Malo" required> Muy Malo</label>
+      <label><input type="radio" name="question25" value="Malo"> Malo</label>
+      <label><input type="radio" name="question25" value="Regular"> Regular</label>
+      <label><input type="radio" name="question25" value="Bueno"> Bueno</label>
+      <label><input type="radio" name="question25" value="Excelente"> Excelente</label>
+    </div>
+    
+    <button type="submit">Enviar Encuesta</button>
+  </form>
+
+  <script src="survey.js"></script>
+</body>
+</html>
